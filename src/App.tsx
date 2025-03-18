@@ -5,9 +5,11 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>Has Tesla Gone Bankrupt Yet?</h1>
-          <img src={stupidMuskSrc} className="logo" alt="Stupid Musk" style={{ width: 'auto', height: '80vh' }}/>
+      <div className="m-container">
+        <h1 className="m-title">Has Tesla Gone Bankrupt Yet?</h1>
+        <div className="m-musk-container">
+          <img src={stupidMuskSrc} className="m-musk" alt="Stupid Musk" />
+        </div>
       </div>
     </>
   )
